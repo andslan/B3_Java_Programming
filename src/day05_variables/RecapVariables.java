@@ -1,0 +1,58 @@
+package day05_variables;
+
+public class RecapVariables {
+    public static void main(String [] args) {
+
+        // Declare variables
+
+        byte numberOfCoffeeCups;
+        double totalPriceOfCoffee;
+        int totalNumberOfStudentsInClass;
+
+//        // We cannot use the variables because they do NOT have a VALUE yet
+//
+
+
+        // Assign values
+        numberOfCoffeeCups = 2;
+        totalPriceOfCoffee = 10.25;
+        totalNumberOfStudentsInClass = 100;
+
+        System.out.println(numberOfCoffeeCups);
+        System.out.println(totalPriceOfCoffee);
+        System.out.println(totalNumberOfStudentsInClass);
+
+
+        // print out like this: numberOfCoffeeCups * totalNumberOfStudentsInClass
+
+        System.out.println(numberOfCoffeeCups + " * " + totalNumberOfStudentsInClass);
+
+        // Declare and Assign
+        double temperature = 30.5;
+        int javaDay = 5;
+        System.out.println("\nToday the temperature was " + temperature);
+        System.out.println("It is Day " + javaDay + " in Java class.");
+
+
+                /*
+                    Variable naming recap
+
+                        hell1@ - can not have any special characters other than $ _ digit
+
+                        12test - Cannot start with numbers
+
+                        $public - we can start with $
+
+                        _34hello - we can start with _
+
+                        staticTest - valid
+
+                        static - not valid. It is java reserved word
+
+                        Package - valid because it starts with capital P however not recommended because not following camelCase pattern
+         */
+
+
+    }
+
+}
