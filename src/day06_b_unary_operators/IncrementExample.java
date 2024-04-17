@@ -12,7 +12,7 @@ public class IncrementExample {
         x++;   // POST INCREMENT - increase it by only 1.
         System.out.println(x); // 2
 
-        ++x;   // PRE INCREMENT - increase it by only `1
+        ++x;   // PRE INCREMENT - increase it by only 1
         System.out.println(x); // 3
 
         System.out.println(++x); // 4 -- > because it is PRE INCREMENT, it will increase it first and then you can use it

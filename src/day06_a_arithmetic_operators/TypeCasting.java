@@ -36,5 +36,6 @@ public class TypeCasting {
         byte b8 = (byte) d8;
         System.out.println(d8);
         System.out.println(b8);
+
     }
 }
